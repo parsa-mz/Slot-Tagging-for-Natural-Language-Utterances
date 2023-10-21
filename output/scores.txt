@@ -1,0 +1,53 @@
+{
+    "1": {
+        "learning_rate": 0.001,
+        "batch_size": 16,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "model": "lstm",
+        "f1_score": "0.7848"
+    },
+    "2": {
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "model": "lstm",
+        "f1_score": "0.7325"
+    },
+    "3": {
+        "learning_rate": 0.04,
+        "batch_size": 32,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "model": "lstm",
+        "f1_score": "0.8773"
+    },
+    "4": {
+        "learning_rate": 0.04,
+        "batch_size": 32,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "bidirectional": true,
+        "model": "gru",
+        "f1_score": "0.8784"
+    },
+    "5": {
+        "learning_rate": 0.04,
+        "batch_size": 32,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "bidirectional": true,
+        "model": "gru",
+        "f1_score": "0.8814"
+    },
+    "6": {
+        "learning_rate": 0.04,
+        "batch_size": 32,
+        "N_epochs": 10,
+        "dropout": 0.2,
+        "bidirectional": true,
+        "model": "gru",
+        "f1_score": "0.8784"
+    }
+}

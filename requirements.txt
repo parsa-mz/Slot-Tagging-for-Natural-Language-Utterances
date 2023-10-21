@@ -1,0 +1,10 @@
+numpy
+sklearn
+torch
+tqdm
+matplotlib
+pandas
+scikit-learn
+torchtext
+spacy
+seqeval
